@@ -75,14 +75,18 @@ I'm a multifaceted professional combining technical writing expertise, machine l
   • <span class="accent">AI/ML Docs Special</span>   : Model Cards & Datasheets, MLOps Runbooks & Playbooks, Research Translation, ML Tooling DX`,
   
   projects: `Featured Projects:
-  1. <span class="accent">Exam System with Django & Permit.io</span> (RBAC, Django, PostgreSQL)
+  1. <span class="accent">InsForge Analytics Dashboard</span> (Next.js, FastAPI, Realtime, AI SSE)
+     -> https://github.com/Tiioluwani/insforge
+  2. <span class="accent">Exam System with Django & Permit.io</span> (RBAC, Django, PostgreSQL)
      -> https://github.com/Tiioluwani/exam-system
-  2. <span class="accent">AI Video Avatar with Simli</span> (OpenAI, Simli, JS)
+  3. <span class="accent">AI Video Avatar with Simli</span> (OpenAI, Simli, JS)
      -> https://github.com/Tiioluwani/Simli-project
-  3. <span class="accent">QA System with Torch & Comet</span> (PyTorch, Comet LLM)
+  4. <span class="accent">Ollama Developer Documentation</span> (Mintlify, MDX, Docs-as-code)
+     -> https://github.com/Tiioluwani/ollama-docs
+  5. <span class="accent">QA System with Torch & Comet</span> (PyTorch, Comet LLM)
      -> https://github.com/Tiioluwani/Q_A_System
-  4. <span class="accent">Emergency Alert System</span> (Flask, Twilio Programmable Voice)
-     -> https://github.com/Tiioluwani/Emergency_notification_system`,
+  6. <span class="accent">Hackmamba Technical Writer Docs</span> (API references, Axios Guides)
+     -> https://github.com/Tiioluwani/hackmamba-docs`,
 
   articles: `Top Published Technical Writing:
   • <span class="accent">Graph Algorithms in Python: BFS, DFS, and Beyond</span>
