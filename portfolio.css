@@ -521,6 +521,17 @@ header {
   color: var(--text);
 }
 
+.glow-card h3 a {
+  color: var(--text);
+  transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+.glow-card h3 a:hover {
+  color: var(--accent);
+  text-shadow: 0 0 8px rgba(var(--accent-rgb), 0.5);
+  opacity: 1;
+}
+
 .glow-card p {
   color: var(--text-muted);
   font-size: 0.95rem;

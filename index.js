@@ -86,7 +86,13 @@ I'm a multifaceted professional combining technical writing expertise, machine l
   5. <span class="accent">QA System with Torch & Comet</span> (PyTorch, Comet LLM)
      -> https://github.com/Tiioluwani/Q_A_System
   6. <span class="accent">Hackmamba Technical Writer Docs</span> (API references, Axios Guides)
-     -> https://github.com/Tiioluwani/hackmamba-docs`,
+     -> https://github.com/Tiioluwani/hackmamba-docs
+  7. <span class="accent">Emergency Alert System</span> (Flask, Twilio Voice, HTMX)
+     -> https://github.com/Tiioluwani/Emergency_notification_system
+  8. <span class="accent">House Price Estimator</span> (scikit-learn, Comet-ML, Python)
+     -> https://github.com/Tiioluwani/house_price_prediction
+  9. <span class="accent">Vibration Analysis Streamlit</span> (Streamlit, NumPy, SciPy)
+     -> https://github.com/Tiioluwani/Vibration_analysis`,
 
   articles: `Top Published Technical Writing:
   • <span class="accent">Graph Algorithms in Python: BFS, DFS, and Beyond</span>
