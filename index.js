@@ -302,30 +302,30 @@ if (contactForm && formStatus) {
     // Progress sequence simulation
     setTimeout(() => {
       formStatus.textContent = "$ send-mail --secure-tunnel-established. Transmitting packet...";
-    }, 1000);
-    
-    // Submit via AJAX to Netlify
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams(new FormData(contactForm)).toString()
-    })
-    .then((response) => {
-      if (response.ok) {
-        formStatus.textContent = "$ send-mail: Success! Message transmitted securely.";
-        // Clear form
-        nameInput.value = "";
-        emailInput.value = "";
-        messageInput.value = "";
-      } else {
+      
+      // Submit via AJAX to Netlify (executed after connection text is set)
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(new FormData(contactForm)).toString()
+      })
+      .then((response) => {
+        if (response.ok) {
+          formStatus.textContent = "$ send-mail: Success! Message transmitted securely.";
+          // Clear form
+          nameInput.value = "";
+          emailInput.value = "";
+          messageInput.value = "";
+        } else {
+          formStatus.className = "form-status error";
+          formStatus.textContent = "$ send-mail: Error. Server responded with a transmission failure.";
+        }
+      })
+      .catch((error) => {
         formStatus.className = "form-status error";
-        formStatus.textContent = "$ send-mail: Error. Server responded with a transmission failure.";
-      }
-    })
-    .catch((error) => {
-      formStatus.className = "form-status error";
-      formStatus.textContent = `$ send-mail: Connection lost. ${error.message || "Unknown network error."}`;
-    });
+        formStatus.textContent = `$ send-mail: Connection lost. ${error.message || "Unknown network error."}`;
+      });
+    }, 1000);
   });
 }
 
