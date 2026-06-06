@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>Tioluwani Taiwo | Python Developer, ML Engineer & Technical Writer</title>
+  <meta name="description" content="Tioluwani Taiwo is a multifaceted professional combining technical writing expertise, machine learning engineering, and Python development to build intelligent systems.">
+  <meta name="author" content="Tioluwani Taiwo">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tioluwani Taiwo | Portfolio">
+  <meta property="og:description" content="Python Developer, ML Engineer & Technical Writer bridging the gap between complex engineering and clear communication.">
+  <meta property="og:image" content="https://tioluwani-s-portfolio.vercel.app/favicon.png">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tioluwani Taiwo | Portfolio">
+  <meta name="twitter:description" content="Python Developer, ML Engineer & Technical Writer bridging the gap between complex engineering and clear communication.">
+  <meta name="twitter:image" content="https://tioluwani-s-portfolio.vercel.app/favicon.png">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="https://tioluwani-s-portfolio.vercel.app/favicon.png">
+  
+  <!-- Custom Styling -->
+  <link rel="stylesheet" href="portfolio.css">
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body data-theme="green">
+
+  <!-- Header Section -->
+  <header>
+    <div class="container header-container">
+      <a href="#" class="logo">
+        tioluwani<span>.sh</span>
+      </a>
+      
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about" class="active">about</a></li>
+          <li><a href="#skills">skills</a></li>
+          <li><a href="#projects">projects</a></li>
+          <li><a href="#articles">articles</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+      
+      <div class="availability-badge">
+        <span class="pulse-dot"></span>
+        <span>available_for_work: true</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <!-- Hero / About Section -->
+    <section id="about" class="hero">
+      <div class="hero-welcome">// Welcome, visitor. Executing profile...</div>
+      <h1 class="hero-name">Tioluwani Taiwo</h1>
+      
+      <div class="hero-title-wrapper">
+        <span>$ </span>
+        <span id="typewriter-text" class="hero-title"></span>
+        <span class="typewriter-cursor"></span>
+      </div>
+      
+      <p class="hero-bio">
+        I am a multifaceted professional combining technical writing expertise, machine learning engineering, and Python development to create comprehensive solutions. With a passion for making complex technical concepts accessible, I specialize in documenting AI/ML systems, building intelligent applications, and developing robust Python backends.
+      </p>
+      
+      <div class="hero-actions">
+        <a href="#terminal-mockup" class="btn btn-primary">
+          <i data-lucide="terminal"></i> Interactive CLI
+        </a>
+        <a href="#contact" class="btn btn-secondary">
+          <i data-lucide="mail"></i> Get In Touch
+        </a>
+      </div>
+      
+      <!-- Interactive Terminal Mockup -->
+      <div id="terminal-mockup" class="terminal-wrapper">
+        <div class="terminal-card">
+          <div class="terminal-header">
+            <div class="terminal-buttons">
+              <span class="t-btn red"></span>
+              <span class="t-btn yellow"></span>
+              <span class="t-btn green"></span>
+            </div>
+            <div class="terminal-title">tioluwani@portfolio: ~/shell</div>
+            <div></div>
+          </div>
+          
+          <div class="terminal-body" id="terminal-body">
+            <div class="terminal-line output accent">========================================================================</div>
+            <pre class="terminal-banner">██████ ██████ ██████ ██     ██  ██ ██     ██ ██████ ██  ██ ██████
+  ██     ██   ██  ██ ██     ██  ██ ██     ██ ██  ██ ███ ██   ██  
+  ██     ██   ██  ██ ██     ██  ██ ██  █  ██ ██████ ██████   ██  
+  ██     ██   ██  ██ ██     ██  ██ ██ ███ ██ ██  ██ ██ ███   ██  
+  ██   ██████ ██████ ██████ ██████ ███   ███ ██  ██ ██  ██ ██████</pre>
+            <div class="terminal-line output accent">========================================================================</div>
+            <div class="terminal-line output">
+Welcome to the interactive CLI! Type <span class="accent">help</span> to list all available commands.
+Preset themes can be applied instantly with <span class="accent">theme [green/amber/cyan/purple]</span>.
+            </div>
+            
+            <div id="terminal-history"></div>
+            
+            <div class="terminal-input-line">
+              <span class="terminal-prompt">tioluwani@portfolio:~$</span>
+              <input type="text" id="terminal-input" class="terminal-input" autocomplete="off" spellcheck="false" placeholder="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2 class="section-title">core_focus_&_competencies</h2>
+      
+      <div class="skills-grid">
+        <!-- Pillar 1: ML & Applied AI -->
+        <div class="glow-card">
+          <div class="glow-card-content">
+            <div class="skill-icon-wrap">
+              <i data-lucide="brain-circuit" size="32"></i>
+            </div>
+            <h3>Applied AI & Machine Learning</h3>
+            <p>Designing custom deep learning architectures, building advanced Retrieval-Augmented Generation (RAG) pipelines, fine-tuning and optimizing LLMs (quantization, LoRA/QLoRA), and engineering robust validation frameworks for high-fidelity NLP workloads.</p>
+            <div class="skills-tags">
+              <span class="skill-tag">PyTorch</span>
+              <span class="skill-tag">Hugging Face</span>
+              <span class="skill-tag">Transformers</span>
+              <span class="skill-tag">LLMs & Fine-Tuning</span>
+              <span class="skill-tag">LangChain & LlamaIndex</span>
+              <span class="skill-tag">Vector Databases</span>
+              <span class="skill-tag">Model Optimization</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pillar 2: MLOps & Production Infrastructure -->
+        <div class="glow-card">
+          <div class="glow-card-content">
+            <div class="skill-icon-wrap">
+              <i data-lucide="cpu" size="32"></i>
+            </div>
+            <h3>MLOps & AI Infrastructure</h3>
+            <p>Building resilient orchestration pipelines, deploying model servers, managing low-latency APIs, implementing experiment tracking with feature stores, and containerizing distributed GPU workloads for production scalability.</p>
+            <div class="skills-tags">
+              <span class="skill-tag">Python (FastAPI)</span>
+              <span class="skill-tag">Docker / Kubernetes</span>
+              <span class="skill-tag">MLflow & Comet ML</span>
+              <span class="skill-tag">Triton Inference Server</span>
+              <span class="skill-tag">CI/CD for ML</span>
+              <span class="skill-tag">Streamlit</span>
+              <span class="skill-tag">PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pillar 3: Technical Writing & Documentation -->
+        <div class="glow-card">
+          <div class="glow-card-content">
+            <div class="skill-icon-wrap">
+              <i data-lucide="feather" size="32"></i>
+            </div>
+            <h3>Technical Writing & Docs</h3>
+            <p>Authoring detailed API references (REST, GraphQL, SDKs), structuring information architectures, implementing Docs-as-Code workflows (Markdown, RST, Git-based), drafting technical style guides, and diagramming systems visually.</p>
+            <div class="skills-tags">
+              <span class="skill-tag">API Docs (REST/GraphQL/SDKs)</span>
+              <span class="skill-tag">Docs-as-Code</span>
+              <span class="skill-tag">Information Architecture</span>
+              <span class="skill-tag">Technical SEO</span>
+              <span class="skill-tag">Mermaid / Draw.io</span>
+              <span class="skill-tag">Sphinx / Docusaurus</span>
+              <span class="skill-tag">Style Guides</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pillar 4: AI/ML Documentation Specialization -->
+        <div class="glow-card">
+          <div class="glow-card-content">
+            <div class="skill-icon-wrap">
+              <i data-lucide="book-open" size="32"></i>
+            </div>
+            <h3>AI/ML Docs Specialization</h3>
+            <p>Documenting model cards, datasheets, and system designs. Authoring operational runbooks and playbooks for production ML systems, translating complex research papers into engineering docs, and writing DevEx content for ML tools.</p>
+            <div class="skills-tags">
+              <span class="skill-tag">Model Cards & Datasheets</span>
+              <span class="skill-tag">ML Runbooks & Playbooks</span>
+              <span class="skill-tag">Research Translation</span>
+              <span class="skill-tag">Developer Experience (DX)</span>
+              <span class="skill-tag">ML Tooling Guides</span>
+              <span class="skill-tag">System Design Docs</span>
+              <span class="skill-tag">Technical Blogging</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2 class="section-title">featured_projects</h2>
+      
+      <div class="projects-grid">
+        
+        <!-- Project 1 -->
+        <div class="glow-card project-card">
+          <div class="glow-card-content" style="height:100%; display:flex; flex-direction:column;">
+            <div class="project-meta">
+              <span class="skill-tag">Python / Django</span>
+              <a href="https://github.com/Tiioluwani/exam-system" target="_blank" class="project-link-icon">
+                <i data-lucide="github"></i>
+              </a>
+            </div>
+            <h3>Exam System with Django & Permit.io</h3>
+            <p>A comprehensive secure exam system featuring granular role-based access control (RBAC), robust authentication, and a sleek dashboard for exam managers.</p>
+            <div class="project-tech">
+              <span class="skill-tag">Django</span>
+              <span class="skill-tag">Permit.io</span>
+              <span class="skill-tag">PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="glow-card project-card">
+          <div class="glow-card-content" style="height:100%; display:flex; flex-direction:column;">
+            <div class="project-meta">
+              <span class="skill-tag">AI / Video</span>
+              <a href="https://github.com/Tiioluwani/Simli-project" target="_blank" class="project-link-icon">
+                <i data-lucide="github"></i>
+              </a>
+            </div>
+            <h3>AI Video Avatar with Simli</h3>
+            <p>An interactive conversational AI video avatar utilizing Simli technologies and OpenAI endpoints to drive lifelike virtual assistant conversations.</p>
+            <div class="project-tech">
+              <span class="skill-tag">Simli</span>
+              <span class="skill-tag">OpenAI</span>
+              <span class="skill-tag">JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="glow-card project-card">
+          <div class="glow-card-content" style="height:100%; display:flex; flex-direction:column;">
+            <div class="project-meta">
+              <span class="skill-tag">Deep Learning</span>
+              <a href="https://github.com/Tiioluwani/Q_A_System" target="_blank" class="project-link-icon">
+                <i data-lucide="github"></i>
+              </a>
+            </div>
+            <h3>QA System with Torch & Comet</h3>
+            <p>Advanced question-answering neural network built with PyTorch and tracked via Comet LLM, supporting dynamic output formatting and custom styling.</p>
+            <div class="project-tech">
+              <span class="skill-tag">PyTorch</span>
+              <span class="skill-tag">Comet LLM</span>
+              <span class="skill-tag">NLP</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="glow-card project-card">
+          <div class="glow-card-content" style="height:100%; display:flex; flex-direction:column;">
+            <div class="project-meta">
+              <span class="skill-tag">Python Web</span>
+              <a href="https://github.com/Tiioluwani/Emergency_notification_system" target="_blank" class="project-link-icon">
+                <i data-lucide="github"></i>
+              </a>
+            </div>
+            <h3>Emergency Alert System</h3>
+            <p>Real-time emergency broadcasting portal integrated with Twilio SDK and rendered dynamically with lightweight HTMX in a Flask environment.</p>
+            <div class="project-tech">
+              <span class="skill-tag">Flask</span>
+              <span class="skill-tag">Twilio Voice</span>
+              <span class="skill-tag">HTMX</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="glow-card project-card">
+          <div class="glow-card-content" style="height:100%; display:flex; flex-direction:column;">
+            <div class="project-meta">
+              <span class="skill-tag">MLOps</span>
+              <a href="https://github.com/Tiioluwani/house_price_prediction" target="_blank" class="project-link-icon">
+                <i data-lucide="github"></i>
+              </a>
+            </div>
+            <h3>House Price Estimator</h3>
+            <p>Predictive regression model with intensive hyperparameter tracking, model optimization, and experiment tracking configured in Comet-ML.</p>
+            <div class="project-tech">
+              <span class="skill-tag">scikit-learn</span>
+              <span class="skill-tag">Comet-ML</span>
+              <span class="skill-tag">Python</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="glow-card project-card">
+          <div class="glow-card-content" style="height:100%; display:flex; flex-direction:column;">
+            <div class="project-meta">
+              <span class="skill-tag">Data Tool</span>
+              <a href="https://github.com/Tiioluwani/Vibration_analysis" target="_blank" class="project-link-icon">
+                <i data-lucide="github"></i>
+              </a>
+            </div>
+            <h3>Vibration Analysis Streamlit</h3>
+            <p>Scientific data analysis dashboard rendering industrial vibration feeds, transforming time-domain signals, and performing FFT calculations in real-time.</p>
+            <div class="project-tech">
+              <span class="skill-tag">Streamlit</span>
+              <span class="skill-tag">NumPy</span>
+              <span class="skill-tag">SciPy</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Articles Section -->
+    <section id="articles">
+      <h2 class="section-title">published_articles_&_guides</h2>
+      
+      <div class="projects-grid" id="articles-container">
+        <!-- Rendered dynamically by Javascript -->
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" style="border-bottom: none; padding-bottom: 8rem;">
+      <h2 class="section-title">contact_me</h2>
+      
+      <div class="contact-container">
+        
+        <!-- Channels -->
+        <div class="contact-info">
+          <h3>Let's collaborate.</h3>
+          <p style="color: var(--text-muted);">
+            If you need an intelligent system built, complex architectures documented, or Python backends optimized, reach out through any of these portals:
+          </p>
+          
+          <div class="contact-channels">
+            <a href="mailto:tioluwanioyedele542@gmail.com" class="contact-item">
+              <div class="contact-item-icon">
+                <i data-lucide="mail"></i>
+              </div>
+              <div class="contact-item-details">
+                <h4>Email</h4>
+                <p>tioluwanioyedele542@gmail.com</p>
+              </div>
+            </a>
+
+            <a href="https://github.com/Tiioluwani" target="_blank" class="contact-item">
+              <div class="contact-item-icon">
+                <i data-lucide="github"></i>
+              </div>
+              <div class="contact-item-details">
+                <h4>GitHub</h4>
+                <p>github.com/Tiioluwani</p>
+              </div>
+            </a>
+
+            <a href="https://linkedin.com/in/tioluwani-oyedele" target="_blank" class="contact-item">
+              <div class="contact-item-icon">
+                <i data-lucide="linkedin"></i>
+              </div>
+              <div class="contact-item-details">
+                <h4>LinkedIn</h4>
+                <p>linkedin.com/in/tioluwani-oyedele</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Interactive Form -->
+        <div>
+          <form class="contact-form" id="contact-form" name="contact" data-netlify="true" novalidate>
+            <input type="hidden" name="form-name" value="contact">
+            <div class="form-group">
+              <label for="name">name</label>
+              <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">email</label>
+              <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="message">message</label>
+              <textarea id="message" name="message" class="form-control" placeholder="Write your message..." required></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" style="align-self: flex-start;">
+              <i data-lucide="send"></i> Send Command
+            </button>
+            
+            <div class="form-status" id="form-status"></div>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Vim Modeline Status Bar (Footer) -->
+  <footer class="vim-footer">
+    <div class="vim-left">
+      <div class="vim-mode normal" id="vim-mode">NORMAL</div>
+      <div class="vim-file" id="vim-file">tioluwani.sh</div>
+      <div class="vim-branch" id="vim-branch">
+        <i data-lucide="git-branch" style="width:12px; height:12px;"></i>
+        <span id="vim-section">about ⎇</span>
+      </div>
+    </div>
+    
+    <div class="vim-right">
+      <div class="vim-encoding">utf-8 [unix]</div>
+      <div class="vim-position" id="vim-scroll">Top</div>
+    </div>
+  </footer>
+
+  <!-- Custom Scripts -->
+  <script src="index.js?v=2.0"></script>
+</body>
+</html>
